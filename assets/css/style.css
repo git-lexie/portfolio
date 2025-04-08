@@ -247,9 +247,10 @@ height: 44px;
 
 /* tablink */
 
-/* social icon */
-.social-icons {
-
+/* My Name */
+p span {
+	color: var(--color-brand);
+	font-size: 2rem;
 }
 
 .social-icons a {
