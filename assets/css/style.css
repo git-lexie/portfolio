@@ -303,6 +303,10 @@ p span {
 	display: block;
 }
 
+.img-flag{
+	width: 75px;
+}
+
 /* form msg */
 
 
@@ -321,6 +325,8 @@ p span {
 		background-size: cover;
 		background-position: center;
 	}
+
+
 
 	.navbar-brand img {
 		border: 8px solid var(--color-brand);
@@ -357,6 +363,15 @@ p span {
 			margin-bottom: 30px;
 		
 		  }
+
+		#home {
+			text-align: center;
+		}
+
+		.mobile-logo {
+			margin-left: auto;
+			margin-right: auto;
+		}
 
 }
 
