@@ -75,6 +75,18 @@ img {
 	font-size: 32px;
 	background-color: var(--color-brand);
 	color: var(--color-base);
+	background-color: var(--color-brand2);
+}
+
+.iconbox-tech {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	background-color: var(--color-brand);
+	color: var(--color-base);
 	background-color: #ffffff00;
 }
 
@@ -353,38 +365,7 @@ p span {
 		justify-content: center;
 		text-align: center;
     }
-
-	.iconbox {
-		margin-left: auto;
-		margin-right: auto;
-		background-color: #ffffff00;
-		
-	}
-
-	.p {
-		text-align: center;
-	}
 }
-@media (min-width: 991px) and (max-width: 1208px) {
-	.techstack {
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-		flex-wrap: wrap;
-	}
-	.iconbox {
-		margin-left: auto;
-		margin-right: auto;
-		background-color: #ffffff00;
-		flex-direction: column;
-	}
-	.p {
-		display: block;
-		text-align: center;
-	}
-}
-
 
 
 	@media (max-width: 991px) {
@@ -410,11 +391,10 @@ p span {
 			text-align: center;
 			margin-left: auto;
 			margin-right: auto;
-			width: 50%;
+			width: 100%;
 			flex-wrap: wrap;
-			grid-column: 2/3;
 		}
-		.iconbox {
+		.iconbox-tech {
 			margin-left: auto;
 			margin-right: auto;
 			background-color: #ffffff00;
