@@ -75,6 +75,7 @@ img {
 	font-size: 32px;
 	background-color: var(--color-brand);
 	color: var(--color-base);
+	background-color: #ffffff00;
 }
 
 .carousel-control-prev,
@@ -353,6 +354,38 @@ p span {
 		text-align: center;
     }
 
+	.iconbox {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #ffffff00;
+		
+	}
+
+	.p {
+		text-align: center;
+	}
+}
+@media (min-width: 991px) and (max-width: 1208px) {
+	.techstack {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		flex-wrap: wrap;
+	}
+	.iconbox {
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #ffffff00;
+		flex-direction: column;
+	}
+	.p {
+		display: block;
+		text-align: center;
+	}
+}
+
+
 
 	@media (max-width: 991px) {
 
@@ -373,6 +406,26 @@ p span {
 			margin-right: auto;
 		}
 
-}
+		.techstack {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			flex-wrap: wrap;
+			grid-column: 2/3;
+		}
+		.iconbox {
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #ffffff00;
+			flex-direction: column;
+		}
+		.p {
+			display: block;
+			text-align: center;
+		}
+
+	
 
 }
+
